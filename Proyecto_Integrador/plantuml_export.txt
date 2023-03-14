@@ -1,4 +1,4 @@
-@startuml
+
 @startuml
 abstract class Examen {
     -id: int
@@ -85,7 +85,6 @@ Paciente *-- Examen
 Paciente *-- Radiografia
 Paciente *-- CondicionDiaria
 Doctor *-- Paciente
-@enduml
 
 
 @enduml
