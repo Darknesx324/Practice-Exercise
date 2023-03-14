@@ -1,20 +1,20 @@
-# Proyecto de seguimiento de pacientes oncol骻icos
+# Proyecto de seguimiento de pacientes oncol贸gicos
 
-Este proyecto tiene como objetivo principal crear un aplicativo que permita a los m閐icos realizar un seguimiento a la documentaci髇 de los pacientes con c醤cer, teniendo acceso a historiales m閐icos, radiograf韆s, escanograf韆s, ex醡enes hematol骻icos y 髍denes m閐icas previas, y que permita un f醕il uso de la herramienta por parte de los pacientes para poder administrar toda su documentaci髇 respectiva.
+Este proyecto tiene como objetivo principal crear un aplicativo que permita a los m茅dicos realizar un seguimiento a la documentaci贸n de los pacientes con c谩ncer, teniendo acceso a historiales m茅dicos, radiograf铆as, escanograf铆as, ex谩menes hematol贸gicos y 贸rdenes m茅dicas previas, y que permita un f谩cil uso de la herramienta por parte de los pacientes para poder administrar toda su documentaci贸n respectiva.
 
 ## Objetivos
 
 ### Objetivos Generales
 
-- Crear un aplicativo que permita al m閐ico realizar un seguimiento a la documentaci髇 del paciente, teniendo acceso a historiales m閐icos, radiograf韆s, escanograf韆s, ex醡enes hematol骻icos y 髍denes m閐icas previas y que permita un f醕il uso de la herramienta a los pacientes para poder administrar toda su documentaci髇 respectiva.
-- Evaluar los posibles problemas que se presenten debido a la ley 1581 de 2012 (Ley para la protecci髇 de datos personales).
-- Examinar todos los documentos necesarios y su interacci髇.
+- Crear un aplicativo que permita al m茅dico realizar un seguimiento a la documentaci贸n del paciente, teniendo acceso a historiales m茅dicos, radiograf铆as, escanograf铆as, ex谩menes hematol贸gicos y 贸rdenes m茅dicas previas y que permita un f谩cil uso de la herramienta a los pacientes para poder administrar toda su documentaci贸n respectiva.
+- Evaluar los posibles problemas que se presenten debido a la ley 1581 de 2012 (Ley para la protecci贸n de datos personales).
+- Examinar todos los documentos necesarios y su interacci贸n.
 
-### Objetivos Espec韋icos
+### Objetivos Espec铆ficos
 
-- Realizar entrevistas y encuestas de satisfacci髇 sobre la atenci髇 recibida en los hospitales en general y la Cl韓ica Imbanaco enfocadas en pacientes con c醤cer.
-- Tomar muestreos sobre el manejo de la informaci髇 cl韓ica (historial m閐ico, citas, 髍denes, etc.).
-- Mostrar una recopilaci髇 de datos necesarios para la construcci髇 de la base de datos del aplicativo.
+- Realizar entrevistas y encuestas de satisfacci贸n sobre la atenci贸n recibida en los hospitales en general y la Cl铆nica Imbanaco enfocadas en pacientes con c谩ncer.
+- Tomar muestreos sobre el manejo de la informaci贸n cl铆nica (historial m茅dico, citas, 贸rdenes, etc.).
+- Mostrar una recopilaci贸n de datos necesarios para la construcci贸n de la base de datos del aplicativo.
 
 ## Contribuidores
 
@@ -22,8 +22,10 @@ Este proyecto tiene como objetivo principal crear un aplicativo que permita a lo
 - [Oscar Cisneros Sandoval](enlace a su perfil de GitHub)
 - [Sebastian Pinzon Marin](enlace a su perfil de GitHub)
 
-## Tecnolog韆s Utilizadas
+## Tecnolog铆as Utilizadas
 
 - Java
 - PlantUML
 - PlantText
+
+![](https://github.com/Darknesx324/Practice-Exercise/blob/main/Proyecto_Integrador/dLRRJiCm37tlL-HnWFO35KAJw118WD3W1xmcT97Q13KPGaByEqdJfiu5LjXJPn_7FlPnsetIqEjZrnOR_mHxfNkeDQbRK8fiFw1ZWdmMnFpMd9Q42-t-QFucI_AiUouQP-cPEhOQQ6Y-Q9Y-ewkpETHQNaoqjKN0tNH4x5DZ2Cvg8E-IKm-OWvDA9kXNKJXYJr1p9ZJBKXEos_Si9FVAwWC.png)
