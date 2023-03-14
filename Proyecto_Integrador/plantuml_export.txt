@@ -1,0 +1,91 @@
+@startuml
+@startuml
+abstract class Examen {
+    -id: int
+    -tipo: String
+    -resultado: String
+    +getId(): int
+    +getTipo(): String
+    +getResultado(): String
+    +setTipo(tipo: String): void
+    +setResultado(resultado: String): void
+}
+
+class Paciente {
+    -id: int
+    -nombre: String
+    -fechaNacimiento: Date
+    -historialMedico: HistorialMedico
+    -examenes: List<Examen>
+    -radiografias: List<Radiografia>
+    -condicionDiaria: CondicionDiaria
+    +getId(): int
+    +getNombre(): String
+    +getFechaNacimiento(): Date
+    +getHistorialMedico(): HistorialMedico
+    +getExamenes(): List<Examen>
+    +getRadiografias(): List<Radiografia>
+    +getCondicionDiaria(): CondicionDiaria
+    +setNombre(nombre: String): void
+    +setFechaNacimiento(fechaNacimiento: Date): void
+    +setHistorialMedico(historialMedico: HistorialMedico): void
+    +addExamen(examen: Examen): void
+    +addRadiografia(radiografia: Radiografia): void
+    +setCondicionDiaria(condicionDiaria: CondicionDiaria): void
+}
+
+class Doctor {
+    -id: int
+    -nombre: String
+    +getId(): int
+    +getNombre(): String
+    +setNombre(nombre: String): void
+}
+
+class HistorialMedico {
+    -id: int
+    -fechaCreacion: Date
+    -diagnostico: String
+    -tratamiento: String
+    -medicamentos: String
+    +getId(): int
+    +getFechaCreacion(): Date
+    +getDiagnostico(): String
+    +getTratamiento(): String
+    +getMedicamentos(): String
+    +setDiagnostico(diagnostico: String): void
+    +setTratamiento(tratamiento: String): void
+    +setMedicamentos(medicamentos: String): void
+}
+
+class Radiografia {
+    -id: int
+    -tipo: String
+    -imagen: String
+    +getId(): int
+    +getTipo(): String
+    +getImagen(): String
+    +setTipo(tipo: String): void
+    +setImagen(imagen: String): void
+}
+
+class CondicionDiaria {
+    -id: int
+    -fecha: Date
+    -condicion: String
+    +getId(): int
+    +getFecha(): Date
+    +getCondicion(): String
+    +setFecha(fecha: Date): void
+    +setCondicion(condicion: String): void
+}
+
+Paciente *-- HistorialMedico
+Paciente *-- Examen
+Paciente *-- Radiografia
+Paciente *-- CondicionDiaria
+Doctor *-- Paciente
+@enduml
+
+
+@enduml
