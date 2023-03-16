@@ -4,7 +4,7 @@ Este proyecto tiene como objetivo principal crear un aplicativo que permita a lo
 
 ## Objetivos
 
-### Objetivos Generales
+### Objetivo General
 
 - Crear un aplicativo que permita al médico realizar un seguimiento a la documentación del paciente, teniendo acceso a historiales médicos, radiografías, escanografías, exámenes hematológicos y órdenes médicas previas y que permita un fácil uso de la herramienta a los pacientes para poder administrar toda su documentación respectiva.
 
